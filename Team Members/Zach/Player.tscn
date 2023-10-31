@@ -1,0 +1,126 @@
+[gd_scene load_steps=28 format=3 uid="uid://c4srt4p8e2gf7"]
+
+[ext_resource type="Script" path="res://Team Members/Zach/Scripts/Movement.cs" id="1_8ht0k"]
+[ext_resource type="Texture2D" uid="uid://bnssjrxch7y04" path="res://Team Members/Zach/Sprites/flatboy/png/Idle (1).png" id="1_d0suc"]
+[ext_resource type="Texture2D" uid="uid://c6a2335yfi2gi" path="res://Team Members/Zach/Sprites/flatboy/png/Idle (2).png" id="2_esbr2"]
+[ext_resource type="Texture2D" uid="uid://c81bt7txue6at" path="res://Team Members/Zach/Sprites/flatboy/png/Idle (3).png" id="3_pm36j"]
+[ext_resource type="Texture2D" uid="uid://b5p6unddc2h2n" path="res://Team Members/Zach/Sprites/flatboy/png/Idle (4).png" id="4_dv454"]
+[ext_resource type="Texture2D" uid="uid://duyxbupmdju4r" path="res://Team Members/Zach/Sprites/flatboy/png/Idle (5).png" id="5_ecesi"]
+[ext_resource type="Texture2D" uid="uid://bwqrheheatwbb" path="res://Team Members/Zach/Sprites/flatboy/png/Idle (6).png" id="6_18onr"]
+[ext_resource type="Texture2D" uid="uid://ddkephr4u7btv" path="res://Team Members/Zach/Sprites/flatboy/png/Idle (7).png" id="7_msvj4"]
+[ext_resource type="Texture2D" uid="uid://bhs1427o6s7i7" path="res://Team Members/Zach/Sprites/flatboy/png/Idle (8).png" id="8_jlwpj"]
+[ext_resource type="Texture2D" uid="uid://dj05w3ryhxgoh" path="res://Team Members/Zach/Sprites/flatboy/png/Idle (9).png" id="9_gbvl2"]
+[ext_resource type="Texture2D" uid="uid://cnt0q742v8ap4" path="res://Team Members/Zach/Sprites/flatboy/png/Walk (1).png" id="10_ie60f"]
+[ext_resource type="Texture2D" uid="uid://bn1ot0ntkchcc" path="res://Team Members/Zach/Sprites/flatboy/png/Walk (2).png" id="11_ax112"]
+[ext_resource type="Texture2D" uid="uid://d08w7atbagclw" path="res://Team Members/Zach/Sprites/flatboy/png/Walk (3).png" id="12_4v0hl"]
+[ext_resource type="Texture2D" uid="uid://pt5uq272tvg8" path="res://Team Members/Zach/Sprites/flatboy/png/Walk (4).png" id="13_ld3om"]
+[ext_resource type="Texture2D" uid="uid://dfj5yr2i8j5ci" path="res://Team Members/Zach/Sprites/flatboy/png/Walk (5).png" id="14_6xel2"]
+[ext_resource type="Texture2D" uid="uid://ciqnfssybota2" path="res://Team Members/Zach/Sprites/flatboy/png/Walk (6).png" id="15_110ef"]
+[ext_resource type="Texture2D" uid="uid://bl5fwqxj17sqp" path="res://Team Members/Zach/Sprites/flatboy/png/Walk (7).png" id="16_ym6wt"]
+[ext_resource type="Texture2D" uid="uid://dje6astgqgb8c" path="res://Team Members/Zach/Sprites/flatboy/png/Walk (8).png" id="17_d1naf"]
+[ext_resource type="Texture2D" uid="uid://4vlqvrnvf8u2" path="res://Team Members/Zach/Sprites/flatboy/png/Walk (9).png" id="18_q1r6p"]
+[ext_resource type="Texture2D" uid="uid://bpw066fehdedp" path="res://Team Members/Zach/Sprites/flatboy/png/Walk (10).png" id="19_hb720"]
+[ext_resource type="Texture2D" uid="uid://j522x6a83dlx" path="res://Team Members/Zach/Sprites/flatboy/png/Walk (11).png" id="20_32wh6"]
+[ext_resource type="Texture2D" uid="uid://c8l0vsfu04ls2" path="res://Team Members/Zach/Sprites/flatboy/png/Walk (12).png" id="21_wynbp"]
+[ext_resource type="Texture2D" uid="uid://b4ntuiyc3vytx" path="res://Team Members/Zach/Sprites/flatboy/png/Walk (13).png" id="22_luhnp"]
+[ext_resource type="Texture2D" uid="uid://br8ao4mcwy8lh" path="res://Team Members/Zach/Sprites/flatboy/png/Walk (14).png" id="23_r4qkb"]
+[ext_resource type="Texture2D" uid="uid://2d550y5tqw83" path="res://Team Members/Zach/Sprites/flatboy/png/Walk (15).png" id="24_5lkxv"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_o2mbr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_d0suc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_esbr2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_pm36j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_dv454")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ecesi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_18onr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_msvj4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_jlwpj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_gbvl2")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_ie60f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ax112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_4v0hl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ld3om")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_6xel2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_110ef")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_ym6wt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_d1naf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_q1r6p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_hb720")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_32wh6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_wynbp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_luhnp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_r4qkb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_5lkxv")
+}],
+"loop": true,
+"name": &"Walking",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hr33l"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_8ht0k")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(10, 0)
+scale = Vector2(0.065, 0.065)
+sprite_frames = SubResource("SpriteFrames_o2mbr")
+animation = &"Idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_hr33l")

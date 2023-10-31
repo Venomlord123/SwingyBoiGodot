@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bg4jo550qa27r"]
+
+[ext_resource type="PackedScene" uid="uid://isibmvhhgijp" path="res://Team Members/Zach/Level 1.tscn" id="1_y4ic5"]
+[ext_resource type="PackedScene" uid="uid://c4srt4p8e2gf7" path="res://Team Members/Zach/Player.tscn" id="2_6kmlv"]
+
+[node name="Main Scene" type="Node2D"]
+
+[node name="Level 1" parent="." instance=ExtResource("1_y4ic5")]
+
+[node name="Player" parent="." instance=ExtResource("2_6kmlv")]
+position = Vector2(-1, -29)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(2, -271)

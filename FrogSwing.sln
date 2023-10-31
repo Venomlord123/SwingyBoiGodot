@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrogSwing", "FrogSwing.csproj", "{ACA408CF-BE20-4545-8967-2BE7BB85D3F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACA408CF-BE20-4545-8967-2BE7BB85D3F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACA408CF-BE20-4545-8967-2BE7BB85D3F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACA408CF-BE20-4545-8967-2BE7BB85D3F2}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{ACA408CF-BE20-4545-8967-2BE7BB85D3F2}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{ACA408CF-BE20-4545-8967-2BE7BB85D3F2}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{ACA408CF-BE20-4545-8967-2BE7BB85D3F2}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal
